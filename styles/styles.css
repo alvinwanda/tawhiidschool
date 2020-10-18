@@ -1,0 +1,59 @@
+.nav {
+  background-color: white;
+}
+
+a h5 {
+  color: rgb(230, 42, 39);
+}
+
+.nav-item {
+  color: darkorange;
+  font-weight: 400;
+}
+
+.nav-icon {
+  color: red;
+}
+
+.carousel-item {
+  object-fit: cover;
+}
+
+.speech {
+  max-width: 15rem;
+  max-height: 15rem;
+  margin: 1rem 0 2rem 0;
+}
+.speech-image {
+  object-fit: contain;
+  /* border-radius: 10px; */
+}
+
+.speech-text {
+  text-align: justify;
+}
+
+.divider {
+  width: 60%;
+}
+
+
+footer {
+    padding-top: 20px;
+
+    background-color: #202020;
+
+}
+
+.footer-copyright{
+    padding: 1rem;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+.footer-divider{
+    background-color: red;
+}
+
+.parallax{
+    position:static;
+  }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+<link rel="stylesheet" href="./styles/styles.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+  />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+        <nav class="nav nav-wrapper">
+          <a href="#!" class="brand-logo"><h5>Tawhiid</h5></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons nav-icon">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a class="nav-item" href="./about.html">About</a></li>
+            <li><a class="nav-item" href="#">Academic</a></li>
+            <li><a class="nav-item" href="#">Management</a></li>
+            <li><a class="nav-item" href="#">Mobile</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="sidenav" id="mobile-demo">
+  
+        <li><a href="./about.html">About</a></li>
+          <li><a href="#">Academic</a></li>
+   
+        <li><a href="#">Management</a></li>
+        <li><a href="#">Mobile</a></li>
+     
+      </ul>
+  
+      <div class="parallax-container">
+        <div class="parallax"><img  src="https://images.unsplash.com/photo-1536337005238-94b997371b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">About</h2>
+            <p class="grey-text text-darken-3 lighten-3">
+                Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.
+            </p>
+            <p>3 wolf moon retro jean shorts chambray sustainable roof party. Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings 
+            flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual bicycle rights, viral 
+            fap cronut leggings squid chillwave pickled gentrify mustache. 3 wolf moon hashtag church-key Odd Future. Austin messenger bag normcore, 
+            Helvetica Williamsburg sartorial tote bag distillery Portland before they sold out gastropub taxidermy Vice.</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+       <div class="parallax"><img  src="https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems);
+  });
+    </script>
+  </body>
+</html>
