@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
 .nav {
   background-color: white;
 }
@@ -19,23 +24,58 @@ a h5 {
   object-fit: cover;
 }
 
-.speech {
-  max-width: 15rem;
-  max-height: 15rem;
-  margin: 1rem 0 2rem 0;
-}
-.speech-image {
-  object-fit: contain;
-  /* border-radius: 10px; */
+.row{
+  padding-top: 2rem;
 }
 
+.speech {
+  max-width: 10rem;
+  max-height: 10rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.speech-container{
+
+background: rgb(250,250,250);
+background: linear-gradient(0deg, rgba(250,250,250,1) 0%, rgba(253,187,45,0.8855917366946778) 70%);}
+.speech-row{
+margin: 1rem;
+text-align: justify;
+}
+
+.speech-image {
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.speech-text-title{
+  color: red;
+  font-weight: 700;
+}
 .speech-text {
   text-align: justify;
 }
 
-.divider {
-  width: 60%;
+.space{
+  padding: 2rem 0;
 }
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+hr{
+  margin: 0 6rem;
+}
+
+.mini-gallery{
+  /* background-color: orange; */
+  padding: 1rem;
+  margin: 0;
+}
+
 
 
 footer {
